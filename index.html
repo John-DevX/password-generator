@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>password generator</title>
+</head>
+<body>
+    <main>
+        <div id="container-result">
+            <span id="result"></span>
+        </div>
+        <span id="value-range"></span>
+        <label id="label-range">Password length</label>
+        <input type="range" id="range" min="8" max="30" value="15">
+        <section id="container-button">
+            <button id="generator">Generate</button>
+            <button id="copy">Copy</button>
+            <div id="container-msg">
+                <p id="msg"></p>
+                <i class="fa-solid fa-check"></i>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Developer John-DevX</p>
+        <a translate="no" href="https://github.com/John-DevX">GitHub</a>
+        <i class="fa-brands fa-github"></i>
+    </footer>
+    <script src="./assets/index.js"></script>
+</body>
+</html>
